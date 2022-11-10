@@ -1,0 +1,77 @@
+body
+{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 0;
+    background-image: linear-gradient(ivory, white);
+}
+
+.wrapper > *
+{
+    min-width: 200px;
+    min-height: 100px;
+    margin: 5px 1% 1% 1% ;
+    text-align: center;
+}
+
+
+.text-block
+{
+    border: 1px solid;
+    margin-top: 5px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+}
+
+.logo
+{
+    border: 3px dashed;
+    width: 24%;
+    float: right;
+    margin-right: 10%;
+}
+
+.menu-list
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+#block-1, #block-7
+{
+    background-color: rgb(198, 217, 241);
+    text-align: left;
+
+}
+
+#block-2, #block-6
+{
+    vertical-align: top;
+    background-color: rgb(234, 241, 221);
+    height: 0px;
+}
+
+.block-4, #block-5
+{
+    vertical-align: top;
+    background-color: rgb(253, 233, 217);
+}
+
+#block-3
+{
+    vertical-align: top;
+    background-color: whitesmoke;
+}
+
+#left-col, #right-col
+{
+    width: 24%;
+}
+
+.inner-table
+{
+    height: 100%;
+    vertical-align: top;
+}
