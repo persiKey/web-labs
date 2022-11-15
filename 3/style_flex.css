@@ -37,7 +37,7 @@ body
     flex-wrap: wrap;
     padding: 0 0.5% 0 0.5%;
 }
-@media (max-width: 423px)
+@media mobile and (max-width: 423px)
 {
     .wrapper
     {
