@@ -1,0 +1,301 @@
+body
+{
+    margin: 0 0;
+}
+#great-wrapper
+{
+    background-color: rgb(73,67,153);
+}
+#wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+}
+@media (max-width:975px) {
+    #wrapper
+    {
+         width: auto;
+    }
+}
+#footer
+{
+    width: 100%;
+    background-color: rgb(51,51,51);
+    padding: 45px 0; 
+    text-align: center;
+    color: white;
+}
+
+#footer > p
+{
+    width: 400px;
+}
+
+#header
+{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+#logo
+{
+    padding-left: 15px;
+    font-size: 2em;
+    display: inline-block;
+    clear: left;
+    color: rgb(187,187,187);
+    font-family: 'Roboto Condensed';
+}
+#right
+{
+    display: block;
+    float: right;
+    height: 0;
+}
+#social > *
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    
+}
+
+#social > *:hover
+{
+    width: 30px;
+    height: 30px;
+    margin: -2.5px -2.5px;
+}
+
+#social > li > a > img
+{
+    width: 110%;
+}
+#social
+{
+    display: block;
+    float: right;
+    margin: 0 0;
+    margin-left: 15px;
+    padding: 0 15px;
+}
+#burger
+{
+    margin-top: 2.5px;
+    width: 25px;
+    height: 25px;
+    float: right;
+  
+}
+
+#burger-wrap
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#burger-wrap:hover
+{
+    transform: rotate(10deg);
+    
+}
+.burger-stripe
+{
+    width: 100%;
+    height: 40%;
+    background-color: aliceblue;
+}
+#content
+{
+    position: relative;
+    padding: 5% 0 15% 0;
+    margin: 0 auto;
+    width: 97%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+#main-list
+{
+    margin-top: 0;
+    height: 100%;
+    display: grid;
+    align-content: space-between;
+}
+#main-list > *
+{
+    width: 90%;
+    color: white;
+    transition: 0.5s;
+}
+
+#main-list > li::marker
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(194, 191, 237);
+    font-family: 'Noto Sans';
+}
+
+#main-list > li > h2{
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    color: rgb(194, 191, 237);
+    font-family: 'Noto Sans';
+    letter-spacing: 0.2em;
+}
+
+#main-list > li:hover
+{
+    margin-left: 15px;
+}
+
+#main-list > li > a{
+    color: white;
+    transition: 0.2s;
+    
+}
+
+#main-list > li > a:hover{
+    color:rgb(44,204,196);
+    
+}
+
+#left-col
+{
+  display: grid;
+  align-items: center;
+}
+
+#back-stripe
+{
+    position: absolute;
+    height: 100%;
+    width: calc(75% * 0.35 * 0.9);
+    background-color: rgb(44,204,196);
+    z-index: 0;
+    margin-left:  calc(75% * 0.325 * 1.05);;
+    top: 0;
+}
+
+#center
+{
+    text-align: left;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#center-text
+{
+    font-size: 3.3em;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Noto Sans';
+    font-weight: 900;
+
+}
+
+#img-wrap
+{
+    overflow: hidden;
+}
+
+#main-image
+{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-out;
+    vertical-align: middle;
+}
+
+#main-image:hover
+{
+    transform:scale(1.1) translate(-3%,-3%);
+}
+
+@media (max-width:765px) {
+    #center-text
+    {
+        font-size: 2.3em;
+    }
+    #main-list > li::marker, #main-list > li > h2
+    {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:555px) {
+    #header
+    {
+        position: relative;
+    }
+    #burger
+    {
+        display: inline-block;
+        position: absolute;
+        left:50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #content
+    {
+        position: initial;
+        padding: 0 0;
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #right-col
+    {
+        margin-top:5%;
+        width: 100%;
+    }
+    #center
+    {
+        width: 100%;
+    }
+    #left-col
+    {
+        padding: 25% 0 15% 0;
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    #main-list
+    {
+        list-style: inside;
+        padding-inline-start: 0;
+    }
+    #main-list > *
+    {
+        padding-bottom: 55px;
+    }
+    #back-stripe
+    {
+        width: 35%;
+        margin-left: 32.5%;
+    }
+    #center-text
+    {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    #footer > p {
+        width: 304px;
+    }
+    #main-list > li::marker, #main-list > li > h2
+    {
+        font-size: 1.2em;
+    }
+}
