@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5 JS</title>
+    <link rel="stylesheet" href="style_JS.css">   
+    <script src="script_1.js"></script>
+</head>
+<body>
+    
+<div id="block-1" class="text-block">
+    <h1 class="logo" style="text-align: center;">Logo</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ullam incidunt iusto obcaecati fugit quis, vitae natus aperiam consectetur quasi est repellendus ipsam dicta corporis. Mollitia qui, nobis repellat eius modi saepe possimus labore nesciunt suscipit maiores enim totam rerum esse sapiente sint repellendus quia fugiat vel ipsa! Ab suscipit adipisci recusandae placeat eveniet consectetur vitae. Quo facere rem maiores iusto, nulla ducimus velit nostrum amet, illum vel itaque deserunt. Iusto, illum quos vero neque quas ducimus sit pariatur consequuntur illo cupiditate nulla provident dolore voluptatem minima eaque aut nisi ex a velit dolor qui tempore. Explicabo exercitationem quos id quae possimus animi doloribus ullam corporis in cum blanditiis vel obcaecati perspiciatis vitae nostrum, debitis error earum perferendis? </p>
+</div>
+
+<div class="wrapper">
+    <div class="col-1">
+        <div class="block-2 text-block" id="block-2">
+            <ol class="menu-list">
+                <li> <a href=""> Головна </a></li> 
+                <li> <a href=""> Про нас</a></li>
+                <li> <a href=""> Про тебе</a></li>
+                <li> <a href=""> Карта</a></li>
+                <li> <a href=""> Острів скарбів</a></li>
+            </ul>
+        </div>
+
+        <div ondblclick="task_4(5)" id="block-5" class="block-5 text-block">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur ad, voluptatem dolorum sed dolor at repellat vero, reprehenderit suscipit ab quas veniam placeat blanditiis molestiae sapiente totam omnis consectetur odio laborum aspernatur, nisi optio ea porro nesciunt! Beatae, sit ad nulla voluptatibus nemo enim itaque dolores quae ex distinctio nobis non maiores placeat repellat soluta autem ab hic incidunt recusandae! Repellendus eaque voluptate aliquid amet eveniet neque soluta repudiandae nulla illum, molestiae tenetur laudantium totam perferendis dicta expedita sapiente eos aut tempore nesciunt rem alias aspernatur omnis inventore. At cupiditate veritatis numquam quod dolor odio tempora beatae, perferendis et soluta?</p>
+            <img alt="штука аби показати вирівнювання" src="https://media.tenor.com/bZGGYqflX9MAAAAd/didnt-ask-plus-youre-female.gif" style="width: 70%;"/>
+        </div>
+
+    </div>
+    <div id="col-2">
+        <div id="block-3" ondblclick="task_4(3)" class="text-block block-3">
+            <img usemap="#tr" src="https://i.kym-cdn.com/photos/images/original/002/422/137/17e.gif" alt="dr.livesey" style="margin-top: 1%;width: 99%;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ullam consectetur aspernatur quo, perspiciatis eaque in velit praesentium natus mollitia nobis recusandae aliquam doloremque quisquam esse quam qui cum reiciendis sint iste obcaecati quasi. Incidunt molestias rem eaque, tempora architecto asperiores quasi necessitatibus dolorem dolore quaerat similique laboriosam aliquam qui iusto nostrum quis excepturi cum nemo inventore delectus. Voluptatem dolorum assumenda hic exercitationem. Omnis libero sed, explicabo possimus eaque nostrum alias voluptates illo laudantium nihil labore necessitatibus consequatur reprehenderit quasi. Sit commodi, placeat optio mollitia natus vero labore dolorum cumque? Officia temporibus neque autem ad. Assumenda minima expedita ad deserunt.
+            <form id="my_form" style="display: grid;">
+                <br/>
+                <button type="button" onclick="task_1()" style="height: 40px;">Поміняти</button>
+                <p>
+                    R еліпса:
+                    <input type="number" id="R_el" size="15" value="19" />
+                
+                </p>
+                <p>
+                    r еліпса:
+                    <input type="number" id="r_el" size="15" value="12"/>
+                </p>
+                <p>
+                    <button type="button" onclick = "task_2()">Обчислити</button>
+                </p>
+                <textarea id="words"  cols="45" rows="10">Xd</textarea>
+                <button id="words_button" type="button" onclick="task_3()">OK</button>
+                <hr>
+                <p style="text-align: center;">
+                    <label>3</label> <input id="ch_3" type="checkbox" onchange="save_check(3)"/>
+                    <label>4</label> <input id="ch_4" type="checkbox" onchange="save_check(4)"/>
+                    <label>5</label> <input id="ch_5" type="checkbox" onchange="save_check(5)"/>
+                </p>
+
+                <ol style="list-style-type: none; padding-left: 20px;">
+                    <li><input type="text" name="" id="sel_1" onselect="task_5(1)" class="sel" readonly="true" value="1." size="1"></li>
+                    <li><input type="text" name="" id="sel_2" onselect="task_5(2)" class="sel" readonly="true" value="2." size="1"></li>
+                    <li><input type="text" name="" id="sel_3" onselect="task_5(3)" class="sel" readonly="true" value="3." size="1"></li>
+                    <li><input type="text" name="" id="sel_4" onselect="task_5(4)" class="sel" readonly="true" value="4." size="1"></li>
+                    <li><input type="text" name="" id="sel_5" onselect="task_5(5)" class="sel" readonly="true" value="5." size="1"></li>
+                    <li><input type="text" name="" id="sel_6" onselect="task_5(6)" class="sel" readonly="true" value="6." size="1"></li>
+                    <li><input type="text" name="" id="sel_7" onselect="task_5(7)" class="sel" readonly="true" value="7." size="1"></li>
+                </ol>
+            </form>
+        </div>
+
+        <div id="block-6" class="text-block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, minima officia inventore molestiae aspernatur consequatur! Minus, quam veniam nesciunt amet iste unde earum architecto enim, quasi voluptatibus exercitationem ratione consequuntur! Dignissimos, possimus. Totam, qui a delectus distinctio quas vero exercitationem sint eum unde numquam, et eius libero non sequi temporibus.</p> 
+        </div>
+    </div>
+
+
+    <div ondblclick="task_4(4)" class="text-block block-4" >
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. At et esse labore assumenda in! Cum modi itaque, laboriosam dolorum suscipit sed est at necessitatibus mollitia maxime ratione et, odio voluptatum!</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae nesciunt tempora accusamus amet, officia quis similique. Dolores velit praesentium adipisci labore maiores, debitis sapiente earum. Beatae qui commodi, modi soluta neque exercitationem eum amet, unde nobis, doloribus reiciendis! Provident expedita obcaecati iusto at dicta fuga velit magni debitis ipsum sunt illo blanditiis voluptatum enim, quia cumque aut architecto voluptate nesciunt facere, accusamus minima cum eveniet laboriosam. Beatae nam quis nihil! Dolores, dignissimos, magni minima ratione iure sed, numquam ex accusantium unde quae vero illo tenetur neque cum voluptatem doloribus provident eius quis. Amet vel porro reiciendis laudantium ipsam ratione neque ipsum eligendi vero distinctio quae, dignissimos tempora molestias at voluptate modi voluptas ullam ipsa accusamus nam similique cum earum magni. Vitae rem impedit earum voluptatibus? Eaque doloribus possimus delectus cumque libero magni unde vel? Voluptate quasi voluptas perspiciatis ad quos velit! Soluta omnis ullam libero qui doloribus quod, facere deleniti odio id iure excepturi expedita optio aliquam ex rem assumenda. Repellendus rerum perferendis ab in, recusandae dolorem asperiores, incidunt beatae assumenda harum fugit doloribus laborum cumque quia dolorum hic tempore quibusdam eaque esse pariatur necessitatibus repellat quae nihil. Iste, magni eaque. Perspiciatis, libero? Explicabo repellat totam libero praesentium et architecto repudiandae blanditiis, quaerat quibusdam quas corrupti dolorum sit enim! Nisi commodi fuga expedita praesentium veniam sint voluptates maiores, nemo quidem ratione consectetur earum ipsam vel odit? Perspiciatis corrupti debitis laudantium? Obcaecati eius facilis veritatis cumque magnam eligendi fugit similique, optio libero et amet expedita unde harum excepturi eveniet voluptates, dolor totam rerum nihil reprehenderit laudantium quo. Quae magnam delectus, perferendis placeat, optio nihil, repudiandae quis doloribus molestiae obcaecati ullam maxime quisquam odit repellendus itaque similique? Perferendis quis ut deleniti asperiores! Esse, nemo! Laborum corrupti eveniet officia pariatur autem reprehenderit quaerat labore. Necessitatibus distinctio officiis veritatis voluptatibus quaerat, tenetur iusto?
+        <img alt="штука аби показати вирівнювання" src="https://media.tenor.com/bZGGYqflX9MAAAAd/didnt-ask-plus-youre-female.gif" style="width: 70%;"/>
+    </div>
+    
+</div>
+
+
+    <div id="block-7" class="text-block">
+        <h1 class="logo" style="text-indent: 1%;">Logo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corporis ducimus tempore quas, ad quasi voluptate, sequi impedit amet modi voluptatibus. Esse eos aut alias deserunt aliquam cupiditate doloremque obcaecati hic ratione, illo libero molestiae, natus adipisci? Quos hic, ad adipisci praesentium fuga vitae officiis. Repellat, nostrum! Nesciunt sapiente, sunt amet facere quam expedita odio eos dolor. Mollitia voluptatibus a assumenda dolorum accusamus eum exercitationem soluta corporis, iusto officia. Ea officia aliquid odit error accusamus excepturi voluptatem sunt alias est autem quam incidunt saepe repellendus, quibusdam enim earum aspernatur. Recusandae ex dolor delectus reiciendis porro possimus quia quis saepe tenetur libero hic quae magni repellendus amet quas incidunt, voluptas modi ratione tempore dolores necessitatibus animi! Esse ut ea expedita laboriosam corrupti similique aspernatur in quam praesentium delectus molestiae quia, nihil id architecto. Voluptatum, sequi voluptas. Reprehenderit, vitae. Illum, placeat vitae?</p>    
+    </div>
+ 
+</body>
+</html>
